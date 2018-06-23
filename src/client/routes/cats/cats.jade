@@ -1,0 +1,5 @@
+include ../../mixins/form.jade
+.cats-route 
+  h1 {{ m('cats-heading') }}
+  button(ui-sref='cat({_id:""})') {{ m('cats-button-new') }}
+  .cat(ng-repeat='cat in cats.items', ui-sref='cat({_id:cat._id})') {{ cat.name }}

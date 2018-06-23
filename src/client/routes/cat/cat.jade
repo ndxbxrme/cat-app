@@ -1,0 +1,6 @@
+include ../../mixins/form.jade
+.cat-route 
+  h1 {{ m('cat-heading') }}
+  +form({data:'cat'})
+    +input({name:'name'})
+    +controls()

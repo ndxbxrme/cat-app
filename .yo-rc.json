@@ -1,0 +1,55 @@
+{
+  "generator-ndx": {
+    "filters": {
+      "settings": {
+        "appType": "web",
+        "encryptionKey": "1642cd99d813c86fa8c028be",
+        "dbType": "Ndxdb",
+        "userTable": "users",
+        "dbTables": "cats",
+        "emails": "None",
+        "rest": true,
+        "cors": false,
+        "localServer": false,
+        "anonymousUser": true,
+        "profiler": false,
+        "loginMethods": [
+          "Local"
+        ],
+        "userSignUp": false,
+        "directives": [],
+        "extras": [
+          "Form extras",
+          "Message service"
+        ],
+        "makeRoutesForEndpoints": true,
+        "undefined": true,
+        "description": "ndx-framework web app",
+        "hasSocial": false,
+        "endpoints": [
+          "users",
+          "cats"
+        ],
+        "Local": true,
+        "FormExtras": true,
+        "MessageService": true,
+        "myEndpoints": [
+          {
+            "name": "users",
+            "plural": "users",
+            "single": "user"
+          },
+          {
+            "name": "cats",
+            "plural": "cats",
+            "single": "cat"
+          }
+        ],
+        "appName": "cat-app",
+        "gitname": "ndxbxrme",
+        "gitemail": "lewis_the_cat@hotmail.com"
+      }
+    },
+    "appname": "26"
+  }
+}
